@@ -1,0 +1,20 @@
+{{left_sidebar_enabled,right_sidebar_enabled=False,('message' in globals())}}
+{{extend 'layout.html'}}
+
+{{include "continents.svg"}}
+<script type="text/javascript" language="javascript">
+  if (window.attachEvent) {
+        window.attachEvent('onload', 
+            Flags.init);
+    }
+    else if (window.addEventListener) {
+        window.addEventListener('load', Flags.init, false);
+    }
+    else {
+        document.addEventListener('load', Flags.init, false);
+    } 
+</script>
+
+<div class="span3">
+  mumu
+  </div>
