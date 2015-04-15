@@ -1,7 +1,9 @@
 {{left_sidebar_enabled,right_sidebar_enabled=False,('message' in globals())}}
 {{extend 'layout.html'}}
 
+
 {{include "continents.svg"}}
+{{include "africa.svg"}}
 <script type="text/javascript" language="javascript">
   if (window.attachEvent) {
         window.attachEvent('onload', 
@@ -15,6 +17,19 @@
     } 
 </script>
 
-<div class="span3">
-  mumu
+<div class="modal fade" id="country-data" tabindex="-1" role="dialog" aria-labelledby="country" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="country"></h4>
+      </div>
+      <div class="modal-body">
+        <img src="#"/>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
   </div>
+</div>
