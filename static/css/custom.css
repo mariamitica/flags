@@ -1,14 +1,69 @@
-#gambia{
-	fill: red;
-}
+
 #africa:hover{
-	fill: red;
+  fill: green;
+}
+
+#asia:hover{
+  fill: red;
 }
 
 #cont1:hover{
-	fill: blue;
+  fill: blue;
 }
 
-.land:hover{
-	fill: black;
+#country-data .modal-body img{
+  border: 1px solid #eee;
+}
+
+g.land path:hover,
+path.land:hover{
+  fill: black;
+}
+
+.land{
+  fill-opacity: 1;
+}
+
+.green1{
+  fill: #c6e9af;
+}
+
+.green2{
+  fill: #8dd35f;
+}
+
+.green3{
+  fill: #71c837;
+}
+
+.green4{
+  fill: #447821;
+}
+
+.green5{
+  fill: #5aa02c;
+}
+
+.black{
+  fill: black;
+}
+
+.red1{
+  fill: #f3b4b3;
+}
+
+.red2{
+  fill: #eb837f;
+}
+
+.red3{
+  fill: #e2514c;
+}
+
+.red4{
+  fill: #da1f19;
+}
+
+.red5{
+  fill: #b60500;
 }
