@@ -1,3 +1,23 @@
+#header{
+  margin-top: 0px;
+}
+
+#main{
+  padding-top: 10px;
+}
+
+[class*="span"]{
+  margin-left: 0;
+}
+
+.page-header{
+  margin-bottom: 10px;
+}
+
+.header-link, .header-link:hover{
+  text-decoration: none;
+  color: inherit;
+}
 
 #africa:hover{
   fill: green;
@@ -7,11 +27,15 @@
   fill: red;
 }
 
+#europe:hover{
+  fill: purple;
+}
+
 #cont1:hover{
   fill: blue;
 }
 
-#country-data .modal-body img{
+.country-info .country-flag img{
   border: 1px solid #eee;
 }
 
@@ -66,4 +90,24 @@ path.land:hover{
 
 .red5{
   fill: #b60500;
+}
+
+.purple5{
+  fill: #7100a4;
+}
+
+.purple1{
+  fill: #e7b3fe;
+}
+
+.purple2{
+  fill: #d67ffe;
+}
+
+.purple3{
+  fill: #c64cfd;
+}
+
+.purple4{
+  fill: #b619fc;
 }

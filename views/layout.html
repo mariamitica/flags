@@ -69,7 +69,7 @@
 <body>
   <div class="container">
     <!-- Masthead ================================================== -->
-    <header class="mastheader row" id="header">
+    <a href="index" class="header-link"><header class="mastheader row" id="header">
       {{if response.title:}}
         <div class="span12">
             <div class="page-header">
@@ -79,8 +79,8 @@
                 </h1>
             </div>
         </div>
-	{{pass}}
-    </header>
+      {{pass}}
+    </header></a>
 
     <section id="main" class="main row">
 
@@ -114,6 +114,18 @@
     'Google Analytics':{trackingId:'{{=response.google_analytics_id}}'} 
   });</script>
   {{pass}}
+  <script type="text/javascript" language="javascript">
+  if (window.attachEvent) {
+        window.attachEvent('onload', 
+            Flags.init);
+    }
+    else if (window.addEventListener) {
+        window.addEventListener('load', Flags.init, false);
+    }
+    else {
+        document.addEventListener('load', Flags.init, false);
+    } 
+</script>
   <!--<script src="{{=URL('static','js/share.js',vars=dict(static=URL('static','images')))}}"/>-->
 </body>
 </html>

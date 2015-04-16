@@ -21,6 +21,17 @@ def index():
     response.files.append(URL('static', 'js/custom.js'))
     return dict(message=T('Hello World'))
 
+def africa():
+    response.subtitle = 'Africa'
+    return response
+
+def asia():
+    response.subtitle = 'Asia'
+    return response
+
+def europe():
+    response.subtitle = 'Europe'
+    return response
 
 def user():
     """
