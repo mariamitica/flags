@@ -10,13 +10,15 @@ var Flags = (function(){
     //     // $('#africa-big').fadeOut(3000);
     //     $('#asia-big').fadeIn(3000);
     //   });
-    $('.land').on('click', function(event){      
-      var button = $(event.target);
+    $('.land').on('click', function(event){    
+      var button = $(event.currentTarget);
       var country = button.data('country');
-      $('.country-info').find('.country-title').text(country);
-      $('.country-info').find('.country-flag img').attr('src', '../static/images/flags/' + country.replace(' ','_') + ".jpg");
-      $('.country-info').show();
-      console.log(country);
+      if (country){
+        $('.country-info').find('.country-title').text(country);
+        $('.country-info').find('.country-flag img').attr('src', '../static/images/flags/' + country.replace(' ','_') + ".jpg");
+        $('.country-info').show();
+      }
+      
     });
     // $('#country-data').on('show.bs.modal', function (event) {
     //   var button = $(event.relatedTarget); // Button that triggered the modal

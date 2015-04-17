@@ -31,6 +31,11 @@
   fill: purple;
 }
 
+#america:hover #north-america,
+#america:hover #south-america{
+  fill: blue;
+}
+
 #cont1:hover{
   fill: blue;
 }
@@ -39,7 +44,7 @@
   border: 1px solid #eee;
 }
 
-g.land path:hover,
+g.land:hover path,
 path.land:hover{
   fill: black;
 }
@@ -110,4 +115,24 @@ path.land:hover{
 
 .purple4{
   fill: #b619fc;
+}
+
+.blue1{
+  fill: #b7dffe;
+}
+
+.blue2{
+  fill: #87cafe;
+}
+
+.blue3{
+  fill: #57b5fd;
+}
+
+.blue4{
+  fill: #27a0fc;
+}
+
+.blue5{
+  fill: #0d7fd6;
 }

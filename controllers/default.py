@@ -33,6 +33,10 @@ def europe():
     response.subtitle = 'Europe'
     return response
 
+def america():
+    response.subtitle = 'America'
+    return response
+
 def user():
     """
     exposes:
