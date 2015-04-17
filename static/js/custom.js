@@ -1,15 +1,6 @@
 var Flags = (function(){
 
   function init() {
-    // $('#africa').on('click', function(){
-    //     $('#continents').fadeOut(300);
-    //     $('#africa-big').fadeIn(3000);
-    //   });
-    // $('#asia').on('click', function(){
-    //     $('#continents').fadeOut(300);
-    //     // $('#africa-big').fadeOut(3000);
-    //     $('#asia-big').fadeIn(3000);
-    //   });
     $('.land').on('click', function(event){    
       var button = $(event.currentTarget);
       var country = button.data('country');
