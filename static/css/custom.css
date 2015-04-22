@@ -19,7 +19,41 @@
   color: inherit;
 }
 
-#africa:hover{
+#africa:hover path, 
+#africa:hover g{
+  fill: green;
+}
+
+#europe:hover path,
+#europe:hover g{
+  fill: purple;
+}
+
+#asia:hover path,
+#asia:hover g{
+  fill: red;
+}
+
+#south-america:hover path,
+#south-america:hover g{
+  fill: yellow;
+}
+
+#central-america:hover path,
+#central-america:hover g{
+  fill: blue;
+}
+
+#north-america:hover path,
+#north-america:hover g{
+  fill: black;
+}
+
+#australia:hover path,
+#australia:hover g{
+  fill: pink;
+}
+/*#africa:hover{
   fill: green;
 }
 
@@ -38,10 +72,14 @@
 
 #cont1:hover{
   fill: blue;
-}
+}*/
 
 .country-info .country-flag img{
   border: 1px solid #eee;
+}
+
+g.landxx path{
+  fill: inherit;
 }
 
 g.land:hover path,
