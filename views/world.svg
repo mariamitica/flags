@@ -6590,7 +6590,7 @@
    <!-- break -->
 
     <path
-       style="fill:#e0e0e0;fill-rule:evenodd;stroke:#ffffff;stroke-width:0.30000000999999998;fill-opacity:1" 
+       style="fill:red;fill-rule:evenodd;stroke:#ffffff;stroke-width:0.30000000999999998;fill-opacity:1" 
        class="landxx coastxx je" 
        d="M 1266.3863,335.58955 C 1266.4593,335.37355 1266.5333,335.15655 1266.6063,334.94155 C 1266.0333,334.73755 1265.6913,334.99155 1265.6663,335.58955 C 1265.9063,335.58955 1266.1463,335.58955 1266.3863,335.58955"
        id="je-" />
